@@ -1,0 +1,51 @@
+#coverimage {
+  width: 100%;
+  height:90vh;
+  object-fit: cover;
+  }
+
+body {
+  font-family: 'Georgia';
+}
+
+#title {
+  font-size: 4em;
+  color: #B89041;
+  font-family: 'Georgia';
+  font-weight: bold;
+}
+
+.halfrow {
+  background-color: #CF969D;
+  color: white;
+  margin:40px;
+  padding:20px;
+  text-align: center;
+}
+
+.color {
+  height: 25vh;
+}
+
+#color1 {
+  background-color: #B89041;
+}
+#color2 {
+  background-color: #CF969D;
+}
+#color3 {
+  background-color: #3E3D3B;
+}
+#color4 {
+  background-color: #EBEAEA;
+}
+#color5 {
+  background-color: #8D6266;
+}
+
+#pickacolor {
+  height:60vh;
+  width: 100%;
+  padding-top: 30vh;
+  text-align: center;
+}

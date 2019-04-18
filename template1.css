@@ -1,0 +1,952 @@
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-image: url('img/testback4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+p {
+  color: #737373 !important;
+}
+h1 {
+  color: #f8d9e4;
+  font-family: 'Playfair Display', serif;
+
+}
+
+h2 {
+  /* color: #712984; */
+  color:#737373;
+  font-family: 'Montserrat', serif;
+  text-align: center;
+}
+
+h4, h3 {
+  color: #01b1aa;
+}
+
+.sectiontitle:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 7%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 8px solid #49c8c3; /* can change color, width, solid to dotted, etc. */
+}
+
+a.nav-link.current:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+   /* This creates some space between the element and the border. */
+    border-bottom: 4px dotted #e4b4c5 !important; /* can change color, width, solid to dotted, etc. */
+}
+
+a.nav-link.current {
+  /* font-weight: bold; */
+  color: #e4b4c5 !important;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#mainHeader {
+  font-size: 4em !important;
+  font-weight: 700!important;
+
+}
+
+
+#topcolor {
+  height: 2vh;
+  background-color:#f8d9e4;
+  width: 100%;
+}
+
+.optiondivider {
+  height: 8vh;
+  background-color:#f8d9e4;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  color: #e4b4c5;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+}
+
+.navbar-light .navbar-brand {
+  color: #49c8c3;
+  font-family: 'Montserrat', serif;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: #87c8c6;
+
+}
+
+.calltoaction {
+  padding: 17px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+}
+
+
+
+/* #navbutton {
+  letter-spacing: 2px;
+  border-radius: 8px;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid rgba(0,0,0,.2);
+  color:rgba(0,0,0,.3) !important;
+  background-color:white !important;
+}
+
+#navbutton:hover {
+  background-color: rgb(0,0,0,.2) !important;
+  color: white !important;
+  border: 1px solid white;
+} */
+
+.lead {
+  color: #dae4e3 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.3);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.4);
+    /* font-weight: bold; */
+    color: #f8d9e4 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:active {
+  /* background-color: #f8d9e4; */
+  /* font-weight: bold; */
+  color: #f8d9e4 !important;
+}
+
+
+.btn-light:hover {
+    background-color:#e9ecef;
+}
+
+.missionandvalues {
+  background-color: rgba(0,0,0,.05);
+}
+
+footer {
+  background-color: #01b1aa;
+  color: #116461;
+  padding: 15px;
+}
+
+footer p {
+  color: #116461 !important;
+}
+
+.fab {
+  margin: 10px;
+  color: #297f7cf0 !important;
+}
+
+.fab:hover {
+  opacity: 0.75;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+
+.fa:hover {
+    opacity: 0.75;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa, .far {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.valuelist {
+  list-style:none;
+  color: #49c8c3;
+  line-height: 2;
+  /* padding-left: 25%; */
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+
+
+.social {
+  background: #297f7cf0;
+  color: #01b1aa;
+}
+
+#socialicons {
+  text-align: right;
+}
+
+.learnmore {
+  letter-spacing: 2px;
+  border-radius: 8px;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid rgba(0,0,0,.2);
+  color:rgba(0,0,0,.3) !important;
+  background-color:white !important;
+}
+
+.learnmore a {
+  color:rgba(0,0,0,.3) !important;
+  text-decoration: none !important;
+}
+
+.learnmore a:hover,.learnmore a:active, .learnmore a:focus {
+  color:white !important;
+}
+
+
+.learnmore:hover, .learnmore:focus, .learnmore:active {
+  background-color: rgb(0,0,0,.2) !important;
+  color: white !important;
+  border: 1px solid white;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255, 219, 88); /* Fallback color */
+    background-color: rgba(255, 219, 88,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 50vw;
+    max-width: 700px;
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color:gray;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.my-auto {
+  margin-left: auto!important;
+    margin-right: auto !important;
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-block {
+  padding: 15px;
+}
+
+.quotationcard1 {
+  background-color: #01b1aa;
+  color: white !important;
+  font-size: 24px;
+}
+
+.quotationcard2 {
+  background-color: #f8d9e4;
+  color:#01b1aa !important;
+  font-size: 24px;
+}
+
+.quotationcard1 p, .quotationcard2 p {
+  color: white !important;
+  font-weight: bold;
+}
+
+.plusicon, .accord, .emailicon, .emailicon:hover {
+  color: #01b1aa !important;
+  text-decoration: none !important;
+  width: 40px;
+  padding: 10px;
+}
+
+#accordion {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emailtext, .accordtext {
+  color: #737373 !important;
+}
+
+.role {
+  font-style: italic;
+  font-size: 14px;
+  color: #737373;
+}
+
+h6 {
+  color: #737373;
+
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #8b8b8b;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #a6a6a6;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 50%;
+}
+
+.tabcontent h3, .tabcontent p {
+  color: white !important;
+}
+
+#Home {background-color: #01b1aa;}
+#News {background-color: #f8d9e4;}
+#Contact {background-color: #712984;}
+#About {background-color: #87c8c6;}
+
+#totop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #712984; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 40px; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
+}
+
+#totop:hover {
+  background-color: #87c8c6; /* Add a dark-grey background on hover */
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+/* #what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+} */
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #01b1aa;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+
+/* These are the icons for the cards http://waramo.co.jp/fa/ */
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+#team .card {
+    background: #ffffff;
+}
+
+.teamicon {
+  padding: 5px;
+  color: blue;
+  background: none;
+  font-size: 18px;
+  border: none !important;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+
+}
+
+.backside .card {
+  background: rgba(0,0,0,0.05) !important;
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+.progress {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 7px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 7px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  border-color: #01b1aa;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right {
+  right: 0;
+}
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  display: flex;
+  border-radius: 50%;
+  font-size: 36px;
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 300;
+  padding-left: 40px;
+  color: #737373;
+}
+.progress .progress-value div {
+  margin-top: 10px;
+}
+.progress .progress-value span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* This for loop creates the 	necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
+*/
+.progress[data-percentage="10"] .progress-right .progress-bar {
+  animation: loading-1 1.5s linear forwards;
+}
+.progress[data-percentage="10"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="20"] .progress-right .progress-bar {
+  animation: loading-2 1.5s linear forwards;
+}
+.progress[data-percentage="20"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="30"] .progress-right .progress-bar {
+  animation: loading-3 1.5s linear forwards;
+}
+.progress[data-percentage="30"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="40"] .progress-right .progress-bar {
+  animation: loading-4 1.5s linear forwards;
+}
+.progress[data-percentage="40"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="50"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="50"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="60"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="60"] .progress-left .progress-bar {
+  animation: loading-1 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="70"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="70"] .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="80"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="80"] .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="90"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="90"] .progress-left .progress-bar {
+  animation: loading-4 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="100"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="100"] .progress-left .progress-bar {
+  animation: loading-5 1.5s linear forwards 1.5s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36);
+    transform: rotate(36deg);
+  }
+}
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(72);
+    transform: rotate(72deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(108);
+    transform: rotate(108deg);
+  }
+}
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144);
+    transform: rotate(144deg);
+  }
+}
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180);
+    transform: rotate(180deg);
+  }
+}
+.progress {
+  margin-bottom: 1em;
+}
+
+
+.quote-card {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+@media (max-width: 640px) {
+  .quote-card:after {
+    font-size: 22em;
+    right: -25px;
+  }
+}
+.quote-card.blue-card{
+  background: #01b1aa;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+}
+ .quote-card.blue-card p,.quote-card.blue-card cite {
+   color: #ffffff !important;
+ }
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #059993;
+}
+
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 4px #01b1aa solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
+.event-card-header {
+  background-color: #01b1aa !important;
+  color: white !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  #socialicons {
+    text-align: center;
+  }
+
+  a.nav-link.current:after {
+      content: ""; /* This is necessary for the pseudo element to work. */
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 0%; /* Change this to whatever width you want. */
+     /* This creates some space between the element and the border. */
+      border-bottom:none !important; /* can change color, width, solid to dotted, etc. */
+  }
+}
